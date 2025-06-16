@@ -65,17 +65,20 @@
   margin: auto;
   padding: 15px;
   background: rgba(0,0,0,0.4);
-  color: #EBE0C2;
+  margin-bottom: 30px;
+}
+
+.bloque-texto {
   font-family: Calibri, sans-serif;
   font-size: 14px;
   line-height: 1.7;
   text-align: justify;
-  margin-bottom: 30px;
   word-break: normal;
   word-wrap: normal;
   overflow-wrap: normal;
   white-space: normal;
   hyphens: none;
+  margin-bottom: 20px;
 }
 
 .separador {
@@ -190,3 +193,4 @@
   color: #C1914F;
   text-transform: uppercase;
 }
+
