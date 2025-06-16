@@ -16,6 +16,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Cabecera */
 .cabecera {
   padding: 30px 20px 20px;
   background: linear-gradient(135deg,#430102,#1a0000);
@@ -40,6 +41,7 @@
   text-transform: uppercase;
 }
 
+/* Imágenes superiores */
 .imagenes-superiores {
   display: flex;
   justify-content: space-between;
@@ -60,38 +62,7 @@
   object-fit: cover;
 }
 
-.texto-evento {
-  width: 400px;
-  margin: auto;
-  padding: 15px;
-  background: rgba(0,0,0,0.4);
-  margin-bottom: 30px;
-}
-
-.bloque-texto {
-  font-family: Calibri, sans-serif;
-  font-size: 14px;
-  line-height: 1.7;
-  text-align: justify;
-  word-break: normal;
-  word-wrap: normal;
-  overflow-wrap: normal;
-  white-space: normal;
-  hyphens: none;
-  margin-bottom: 20px;
-}
-
-.separador {
-  margin: 25px 0 15px;
-  padding: 4px 12px;
-  background: #C1914F;
-  font-family: 'Playfair Display', serif;
-  font-size: 13px;
-  color: #220C12;
-  text-transform: uppercase;
-  display: inline-block;
-}
-
+/* Juegos peligrosos */
 .juegos-peligrosos {
   width: 400px;
   margin: auto;
@@ -142,6 +113,7 @@
   text-align: justify;
 }
 
+/* Datos extra */
 .datos-extra {
   width: 400px;
   margin: auto;
@@ -174,6 +146,7 @@
   margin-right: 8px;
 }
 
+/* Pie final */
 .pie-final {
   display: flex;
   justify-content: space-between;
@@ -193,4 +166,3 @@
   color: #C1914F;
   text-transform: uppercase;
 }
-
