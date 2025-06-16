@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cormorant+Garamond:wght@700&family=Playfair+Display:wght@700&display=swap');
+
+.cabaret-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+  background: #220C12;
+  border: 8px solid #430102;
+  color: #EBE0C2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cabecera {
+  padding: 30px 20px 20px;
+  background: linear-gradient(135deg,#430102,#1a0000);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cabecera .titulo {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 80px;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px #C1914F;
+  color: transparent;
+  line-height: 1;
+}
+
+.cabecera .subtitulo {
+  margin-top: 10px;
+  font-size: 10px;
+  color: #C1914F;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.imagenes-superiores {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.imagenes-superiores div {
+  flex: 1;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 90px;
+}
+
+.imagenes-superiores img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto-evento {
+  width: 400px;
+  margin: auto;
+  padding: 15px;
+  background: rgba(0,0,0,0.4);
+  color: #EBE0C2;
+  font-family: Calibri, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.separador {
+  margin: 25px 0 15px;
+  padding: 4px 12px;
+  background: #C1914F;
+  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+  color: #220C12;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.juegos-peligrosos {
+  width: 400px;
+  margin: auto;
+  padding: 15px;
+  background: linear-gradient(135deg,#430102,#1b0000);
+  margin-bottom: 30px;
+}
+
+.titulo-juegos {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #EBE0C2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.juego {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.juego.inverso {
+  flex-direction: row-reverse;
+}
+
+.juego .imagen {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 15px;
+}
+
+.juego img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.juego .texto {
+  flex: 1;
+  font-family: Calibri, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.datos-extra {
+  width: 400px;
+  margin: auto;
+  padding: 15px;
+  background: linear-gradient(135deg,#220C12,#1a0000);
+  margin-bottom: 30px;
+}
+
+.titulo-datos {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: #EBE0C2;
+  text-transform: uppercase;
+}
+
+.dato {
+  background: rgba(255,255,255,0.07);
+  padding: 10px 12px;
+  border-left: 4px solid #C1914F;
+  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+  color: #EBE0C2;
+}
+
+.dato span {
+  font-weight: bold;
+  color: #C1914F;
+  margin-right: 8px;
+}
+
+.pie-final {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.pie-final div {
+  flex: 1;
+  padding: 10px;
+  background: rgba(255,255,255,0.07);
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+  color: #C1914F;
+  text-transform: uppercase;
+}
