@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cormorant+Garamond:wght@700&family=Playfair+Display:wght@700&display=swap');
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .cabaret-container {
   max-width: 500px;
   margin: 0 auto;
@@ -177,4 +181,30 @@
   font-size: 13px;
   color: #C1914F;
   text-transform: uppercase;
+}
+
+.texto-evento p {
+  word-break: normal;
+  word-wrap: normal;
+  overflow-wrap: normal;
+  white-space: normal;
+  hyphens: none;
+  text-align: justify;
+  font-family: Calibri, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* Evitamos los saltos de ForoActivo en los párrafos de rol */
+.texto-evento p {
+  word-break: normal;
+  word-wrap: normal;
+  overflow-wrap: normal;
+  white-space: normal;
+  hyphens: none;
+  text-align: justify;
+  font-family: Calibri, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
 }
